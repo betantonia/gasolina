@@ -1,8 +1,14 @@
+# Instalación de librerías
+pip install requests
+pip install beautifulsoup4
+
+# Importación de librerías
 import http.client
 import json
 import requests
 from bs4 import BeautifulSoup
 
+# URL del sitio web a analizar
 url = 'https://www.fuelflash.eu/es/autonetoil-palma-españa-carrer-de-son-pendola-1-61933/'
 
 # Realizamos la petición a la URL
